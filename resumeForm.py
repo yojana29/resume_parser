@@ -1,0 +1,18 @@
+
+name = input("Enter ypur Name: ")
+headline = input("Enter yout Headline: ")
+bio = input("Enter your Bio: ")
+email = input("Enter your Email: ")
+phone = input("Enter your Phone Number: ")
+address = input("Enter your Address: ")
+photo_url = input("Enter your Photo Image URL: ")
+resume_url = input("Enter your Resume URL: ")
+
+print("Name: ",name)
+print("Headline: ",headline)
+print("Bio: ",bio)
+print("Email:", email)
+print("Phone:", phone)
+print("Address:", address)
+print("Photo URL:", photo_url)
+print("Resume URL:", resume_url)
