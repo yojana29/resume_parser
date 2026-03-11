@@ -1,10 +1,13 @@
 score = 0
 python = input("Do you know Python? (yess/no):")
 aws = input("Do you know AWS? (yes/no): ")
+react = input("Do you know React? (yes/no): ")
 if python == "yes":
     score = score + 10
 
 if aws == "yes":
     score = score + 10
-
+if react == "yes":
+    score = score + 10
+    
 print("Resume Score:",score)   
